@@ -14,7 +14,6 @@ module.exports = {
     },
     plugins: ['react', '@typescript-eslint'],
     rules: {
-        semi: 'off',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         indent: [2, 4],
@@ -31,7 +30,6 @@ module.exports = {
         'react/function-component-definition': 'off',
         'no-shadow': 'off',
         'jsx-quotes': 'off',
-        quotes: ['error', 'prefer-single'],
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
