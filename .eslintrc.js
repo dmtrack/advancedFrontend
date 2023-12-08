@@ -14,6 +14,7 @@ module.exports = {
     },
     plugins: ['react', '@typescript-eslint'],
     rules: {
+        'implicit-arrow-linebreak': 'off',
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         indent: [2, 4],
